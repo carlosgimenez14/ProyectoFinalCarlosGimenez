@@ -1,0 +1,201 @@
+---
+title: "Proyecto final"
+author: "Carlos Giménez"
+date: "22/11/2019"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    theme: journal
+    highlight: haddock
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introducción
+
+El siguiente proyecto final esta dividido en tres secciones. En las dos primeras secciones hablaremos sobre dos páginas con recursos para expresiones regulares y Markdown, y discutiremos sobre cual es mejor. Por último, en la tercera sección se cargarán unos datos que serán representados gráficamente y estudiados descriptivamente.
+
+
+## 1. Expresiones regulares
+
+Como hemos indicado en la introducción, en esta primera sección hablaremos de dos páginas en las que podemos encontrar recursos sobre expresiones regulares. Concretamente, las dos páginas que vamos a introducir son <a href="http://rpubs.com/" target="_blank">RPubs</a> y <a href="https://riptutorial.com/es/home" target="_blank">Rip Tutorial</a>.
+
+
+
+### 1.1 RPubs
+
+La primera página de la que vamos a hablar es **RPubs**. Es una página gratuita en la que los usuarios pueden compartir documentos R Markdown de manera simple. Entre los dintintos documentos publicados, en <a href="http://rpubs.com/ydmarinb/429756" target="_blank">este</a> publicado por **Yubar Daniel** encontramos recursos sobre las expresiones regulares.
+
+En el documento de **Yubar Daniel** se introducen las expresiones regulares y se explica la teoría sobre ellas. Nos enseña diferentes expresiones regulares, explicándonos todas ellas y la función que desarrollan. Además, luego habla sobre su implementación en R y enseña el código y algunos ejemplos.
+
+Este es solo uno de los muchos documentos que podemos encontrar en esta página. A continuación, se detallan las principales ventajas:
+
++ Gran cantidad y variedad de documentos
++ El mismo tema tiene varios documentos (Hay varios Markdowns sobre expresiones regulares)
++ Facilidad para compartir
++ En varios idiomas: es posible encontrar documentos en otros idiomas aparte del inglés
+
+Sin embargo, también tiene puntos negativos importantes:
+
++ Cualquiera puede subir archivos, por lo que pueden ser incorrectos o contener errores
++ Hay que asegurarse y comprobar el contenido
++ Es posible que tardemos tiempo en encontrar un documento que se ajuste a nuestras necesidades
+
+
+### 1.2 Rip Tutorial
+
+Otra opción donde consultar recursos sobre expresiones regulares es en la página de Rip Tutorial. En esta <a href="https://riptutorial.com/es/r/topic/5748/expresiones-regulares--expresiones-regulares-" target="_blank">página</a> se introducen las expresiones regulares y explica alguna de ellas. Además, en esta página se pueden encontrar otros tutoriales.
+
+A pesar de esto, esta página no me parece muy buena opción ya las lecciones no son muy extensas y son muy básicas. Pienso que sería fácil mejorarlas.
+
+### 1.3 Conclusión sobre expresiones regulares
+
+Entre las dos páginas introducidas, la página de <a href="http://rpubs.com/" target="_blank">RPubs</a> es mejor opción a la hora de buscar recursos. La mayor variedad y extensión de documentos hace que se decante la balanza de su lado. 
+
+
+## 2. Markdown
+
+En la segunda sección de estre proyecto vamos a hablar de dos páginas en las que se indicen recursos sobre Markdown. La primera de la que hablaremos será la propia página de <a href="https://rstudio.com/" target="_blank">RStudio</a>, y posteriormente hablaremos de <a href="https://commonmark.org/" target="_blank">CommonMark</a>.
+
+### 2.1 RStudio
+
+Es la página oficial de RStudio, desde donde podemos descargar el programa y donde además podemos ponernos en contacto con la comunidad a través de un foro. Además de esto, en la propia página encontramos recursos que nos pueden ayudar a desarrollar nuestra actividad con R Studio. 
+
+Son llamados *Cheat Sheets*, y hay de diversas temáticas. Para Markdown hemos encontrado <a href="https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf" target="_blank">este</a> *Cheat Sheet* que explica algunos de los recursos de este tipo de documento.
+
+En el documento citado anteriormente podemos encontrar un _PDF_ en el que hay información e instrucciones sobre Markdown. Está dividido en 9 apartados, y nos explica en qué consiste un Markdown, como crearlo, como podemos añadir distintas funcionalidades, y por último como publicarlo y compartirlo. 
+
+Algunas de las ventajas que, en mi opinión, tiene esta página son las siguientes:
+
++ Proporciona toda la información de forma compacta en dos páginas
++ El uso de imágenes ayuda a entender y a seguir el contenido
++ Hay algunos ejemplos que facilitan la explicación
++ Es la página oficial de R Studio
+
+Sin embargo, a pesar de estas ventajas, también podemos estacar algun punto negativo:
+
++ El hecho de que la información esté condensada en 2 páginas puede resultar en un documento demasiado denso
++ Las explicaciones y ejemplos son muy simples
+
+### 2.2 CommonMark
+
+*CommonMark* es una página dedicada específicamente a Markdown en la que podemos encontar varios tutoriales que nos enseñarán algunos de los fundamentos básicos. Esta página fue desarrollada en 2004 por John Gruber en colaboración con Aaron Swartz. En este <a href="https://commonmark.org/help/tutorial/index.html" target="_blank">tutorial</a> podemos encontrar ayuda sobre Markdown.
+
+Se trata de un tutorial interactivo que está dividido en 10 partes, cada una de ellas dedicada a una lección de Markdown. En cada una de estas lecciones, se introduce la teoría sobre una funcionalidad de Markdown. Una vez explicada la teoría, hay unos ejercicios que se pueden hacer para practicar y asegurarse el correcto entendimiento. Una vez hechos estos ejercicios, puedes ver la solución y pasar a la siguiente lección.
+
+Como puntos positivos de esta página, podemos puntualizar los siguientes:
+
++ La página tiene una interfaz muy simple que permite seguir sin problema las explicaciones
++ Varios ejercicios para cada lección
++ La posibilidad de ver sus soluciones a los ejercicios después de introducir la teoría ayuda a su entendimiento
++ Muy útil para nuevos usuarios
+
+En cuanto a lo negativo de esta página, podemos decir que:
+
++ Las lecciones son muy básicas. Solo serían útiles para introducir a nuevos usuarios.
++ Para usuarios avanzados es irrelevante
+
+
+### 2.3 Conclusión sobre Markdown
+
+Una vez analizados los puntos fuertes y débiles de ambas páginas, podemos concluir con nuestra opinión. Ambas páginas son útiles y ayudan a la hora de consultar información sobre Markdown, y aunque ambas me han resultado de gran ayuda, pienso que es mejor la página de <a href="https://rstudio.com/" target="_blank">RStudio</a>. 
+
+Pienso que esta página es mejor ya que, a pesar de no explicar las cosas tan detalladamente como en la otra, ofrece información de más elementos. Además, el hecho de que sea un documento compacto facilita mucho buscar información de forma rápida. También es importante que sea la página oficial de **R Studio**, lo que me transmite mas seguridad.
+
+Sin embargo, a pesar de elegir la página de Rstudio, pienso que la página de **CommonMark** puede ser de gran ayuda y la recomendaría sin dudarlo, aunque si tuviera que elegir solamente una, lo haría con **R Studio**
+
+## 3. Análisis de datos
+
+En esta sección vamos a hacer un análisis de los datos de **USArrests**, un conjunto de datos incluido en RStudio. Este conjunto de datos nos da información sobre las tasas de arrestos por delitos violentos en cada uno de los 50 estados de Estados Unidos en el año 1973.
+
+
+### 3.1 Resumen de la base de datos
+
+A continuación se muestra una tabla con el resumen de esta base de datos. Se puede observar que las tasas de arresto por el delito de asalto son las más altas.
+
+````{r USArrests, echo=FALSE, message=FALSE}
+library(knitr)
+knitr::kable(summary(USArrests))
+````
+
+### 3.2 Las variables de la base de datos
+
+Como se puede observar en el resumen de la base de datos del apartado anterior, las variables que componen esta base de datos son las siguientes.
+
+> Murder
+
+Indica el número de arrestos por **asesinato** por cada 100.000 residentes.
+
+> Assault
+
+Indica el número de arrestos por **asalto** por cada 100.000 residentes.
+
+> UrbanPop
+
+Indica el porcentaje de la población que vive en zonas urbanas.
+
+> Rape
+
+Indica el número de arrestos por **violación** por cada 100.000 residentes.
+
+### 3.3 Gráficos de la base de datos
+
+A partir de los datos de esta base de datos, es interesante realizar gráficas con el fin de interpretar de manera más sencilla los datos. 
+
+#### 3.3.1 Gráfico que muestra las tasas de asalto en cada estado
+
+En el resumen de los datos hemos dicho que las tasas de arresto por asalto son los más altas, así que es interesante representar gráficamente esta tasa en cada estado. A continuación aparece representada dicha gráfica.
+
+````{r echo=FALSE, warning=FALSE, message=FALSE}
+estados = row.names(USArrests)
+barplot(USArrests$Assault, names.arg = estados, las = 3, ylab = "Tasa de asaltos por cada 100.000 residentes", 
+        main = "Tasa de asaltos en Estados Unidos")
+````
+
+
+Hay una gran diferencia en la tasa de asaltos entre cada estado. Hay estados con una tasa muy alta de asaltos y otros en la que es mucho más baja. Hay mucha diferencia entre estados.
+
+#### 3.3.2 Gráfico que estudia la relación entre asalto y asesinato
+
+Es evidente pensar que la tasa de asalto y la tasa de asesinato estan correlacionadas directamente, es decir, que cuando aumente una variable, aumente también la otra. Vamos a representar esto gráficamente, poniendo en el **eje x** la tasa de **asaltos** y en el **eje y** la tasa de **asesinatos**.
+
+````{r echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+ggplot(data=USArrests, aes(USArrests$Assault, USArrests$Murder)) + geom_point() + geom_smooth() + labs(x="Tasa de asaltos", y="Tasa de asesinatos",title="Relación entre asaltos y asesinatos", subtitle = "Relación entre la tasa de asaltos y asesinatos por cada 100.000 residentes") + theme(panel.background = element_rect(fill="aliceblue", color="blue"))
+````
+
+
+Como se puede observar en el gráfico anterior, los asaltos y los asesinatos están directamente correlacionados: cuando aumenta la tasa de asaltos, aumenta también la tasa de asesinatos. En el gráfico aparecen puntos que indican las tasas, y además he añadido una linea para observar la tendencia, que en este caso es creciente.
+
+#### 3.3.3 Gráfica que estudia las tasas de arrestos por violación por estado representadas en un mapa.
+
+En este apartado vamos a estudiar la tasa de arrestos por violación en cada estado representadas en un mapa. Las zonas en las que el color azul es más intenso es auqellas en las que las tasas de aresto por violación son más bajas. En cambio, aquellas zonas con un color azul más claro tienen unas tasas de arresto por violación superiores.
+
+````{r echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(maps)
+violaciones <- data.frame(state=tolower(rownames(USArrests)), USArrests)
+mapa <- ggplot(violaciones, aes(map_id=state, fill=Rape))
+mapa <- mapa + geom_map(map=map_data("state"))
+mapa <- mapa + expand_limits(x=map_data("state")$long, y=map_data("state")$lat) + labs(x="", y="", title="Tasa de arresto por violación en Estados Unidos")
+mapa
+````
+
+
+
+### 3.4 Tabla de la base de datos
+
+Para finalizar, en este apartado se muestra una tabla interactiva en la que podemos ordenar los datos según la variable que queramos, tanto en orden ascendente como descendente, y además podemos realizar una búsqueda si nos interesa un estado en concreto.
+
+
+```{r results= "asis", echo=FALSE, message=FALSE}
+library(DT)
+datatable(head(USArrests, n=nrow(USArrests)), options = list(pageLenght =5))
+````
+
